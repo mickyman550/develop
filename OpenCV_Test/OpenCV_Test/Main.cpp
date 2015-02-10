@@ -4,7 +4,7 @@
 #include "stdafx.h"
 #include "video_homography.h"
 #include "SURF_Homography.h"
-#include "calibration.h"
+#include "camera_calibration.h"
 #include "ReadImageList.h"
 
 
