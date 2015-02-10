@@ -1,10 +1,15 @@
-﻿Build started 04/02/2015 22:02:59.
+﻿Build started 09/02/2015 17:52:41.
      1>Project "C:\develop\OpenCV_Binocular_disparity\OpenCV_Test\OpenCV_Test\OpenCV_Test.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\include /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt calibration.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv\build\include /IC:\opencv\sources\modules\calib3d\include /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt calibration.cpp camera_calibration.cpp
          calibration.cpp
+         Generating Code...
+         Compiling...
+         camera_calibration.cpp
+         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\develop\OpenCV_Binocular_disparity\OpenCV_Test\x64\Debug\OpenCV_Test.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x64\vc12\lib /LIBPATH:C:\opencv\build\x64\vc12\bin opencv_core249d.lib opencv_features2d249d.lib opencv_highgui249d.lib opencv_calib3d249d.lib opencv_imgproc249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\develop\OpenCV_Binocular_disparity\OpenCV_Test\x64\Debug\OpenCV_Test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\develop\OpenCV_Binocular_disparity\OpenCV_Test\x64\Debug\OpenCV_Test.lib" /MACHINE:X64 x64\Debug\calibration.obj
+         x64\Debug\camera_calibration.obj
          x64\Debug\Main.obj
          x64\Debug\OpenCV_test.obj
          x64\Debug\ReadImageList.obj
@@ -14,4 +19,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.78
+Time Elapsed 00:00:01.85
